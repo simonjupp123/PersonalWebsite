@@ -72,4 +72,41 @@ form {
   button:hover {
     background-color: #555;
   }
+
+  .home-image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 50%;                 /* Full width of the container */
+    max-width: 500px;            /* Max width to control size on larger screens */
+    border-radius: 50%;         /* Rounded corners */
+    box-shadow: 0px 4px 8px rgba(0, 0, 0, 0.2); /* Subtle shadow for depth */
+    transition: transform 0.3s, filter 0.3s; /* Smooth scaling and filter transition */
+    filter: grayscale(100%);
+  }
+  
+  .home-image:hover {
+    transform: scale(1.05); /* Slight zoom on hover */
+    filter: brightness(1.1); /* Increase brightness on hover */
+  }
+
+  .social-links {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Space between icons */
+    margin-top: 20px;
+  }
+  
+  .social-icon {
+    width: 60px;
+    height: 60px;
+    object-fit: cover;
+    transition: transform 0.3s, filter 0.3s;
+    filter: grayscale(100%);
+  }
+  
+  .social-icon:hover {
+    transform: scale(1.2);
+    filter: grayscale(0%);
+  }
   

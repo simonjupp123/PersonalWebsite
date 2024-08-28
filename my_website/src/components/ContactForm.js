@@ -27,17 +27,17 @@ function ContactForm() {
     return (
         <form action="https://formsubmit.co/simon.jupp@yale.edu" method="POST">
             <div>
-            <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value={post_submision_url} />
-            <label htmlFor="name">Name:</label>
-                <input
-                    type="text"
-                    id="name"
-                    name="name"
-                    value={formData.name}
-                    onChange={handleChange}
-                    required
-                />
+                <input type="hidden" name="_captcha" value="false" />
+                <input type="hidden" name="_next" value={post_submision_url} />
+                <label htmlFor="name">Name:</label>
+                    <input
+                        type="text"
+                        id="name"
+                        name="name"
+                        value={formData.name}
+                        onChange={handleChange}
+                        required
+                    />
             </div>
             <div>
                 <label htmlFor="email">Email:</label>

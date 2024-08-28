@@ -1,6 +1,7 @@
 // src/pages/Home.js
 import React from 'react';
 import myImage from '..//images/IMG_0082.JPG';
+import SocialLinks from '../components/SocialLinks';
 
 function Home() {
   return (
@@ -10,8 +11,9 @@ function Home() {
         <img 
           src={myImage} // Replace with your own image URL or use local image
           alt="Your description" 
-          className="home-image"
+          className='home-image'
         />
+        <SocialLinks />
         <div className="home-description">
           <p>
             I'm a passionate software engineer with a knack for creating dynamic and responsive web applications. 
