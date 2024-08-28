@@ -6,19 +6,22 @@ import SocialLinks from '../components/SocialLinks';
 function Home() {
   return (
     <div>
-      <h1>Welcome to My Portfolio</h1>
       <section className="home-content">
-        <img 
-          src={myImage} // Replace with your own image URL or use local image
-          alt="Your description" 
-          className='home-image'
-        />
-        <SocialLinks />
+        <h1>Hi, my name is Simon Jupp</h1>
         <div className="home-description">
           <p>
-            I'm a passionate software engineer with a knack for creating dynamic and responsive web applications. 
-            My portfolio showcases a range of projects that reflect my dedication to learning and building innovative solutions.
+            Senior at Yale majoring in Computer Science
           </p>
+        </div>
+        <div className="bottom-row">
+          <img 
+            src={myImage} 
+            alt="Your description" 
+            className="home-image"
+          />
+          <div className="home-info">
+            <SocialLinks />
+          </div>
         </div>
       </section>
     </div>
