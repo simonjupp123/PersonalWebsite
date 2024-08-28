@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-const domain_name = "http://localhost:3000/contact"
+const domain_name = "http://localhost:3000"
 function ContactForm() {
     const [formData, setFormData] = useState({
       name: '',
@@ -22,11 +22,13 @@ function ContactForm() {
     //     console.log('Form submitted:', formData);
     // };
 
+    const post_submision_url = domain_name.concat("/thankyou")
+
     return (
         <form action="https://formsubmit.co/simon.jupp@yale.edu" method="POST">
             <div>
             <input type="hidden" name="_captcha" value="false" />
-            <input type="hidden" name="_next" value={domain_name} />
+            <input type="hidden" name="_next" value={post_submision_url} />
             <label htmlFor="name">Name:</label>
                 <input
                     type="text"
