@@ -9,6 +9,20 @@ function Home() {
     <div>
       <section className="home-content">
         <h1>Hi, my name is Simon Jupp</h1>
+        <h2>
+                I am a{' '}
+                <Typical
+                    steps={[
+                        'Software Engineer.', 1000,
+                        'Web Developer.', 1000,
+                        'Tech Enthusiast.', 1000,
+                        'Problem Solver.', 1000,
+                        'Lifelong Learner.', 1000
+                    ]}
+                    loop={Infinity}
+                    wrapper="span"
+                />
+            </h2>
         <div className="home-description">
           <p>
             Senior at Yale majoring in Computer Science

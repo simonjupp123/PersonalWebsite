@@ -72,28 +72,6 @@ form {
   button:hover {
     background-color: #555;
   }
-<<<<<<< HEAD
-  .home-content {
-    display: flex;
-    align-items: center;
-    justify-content: space-between;
-    padding: 20px;
-}
-
-.home-image {
-    width: 200px; /* Adjust the size as needed */
-    height: 200px; /* Ensure this matches the width for a perfect circle */
-    border-radius: 50%; /* Makes the image circular */
-    object-fit: cover; /* Ensures the image covers the area without distortion */
-    border: 5px solid #ccc; /* Optional: Add a border to the image */
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2); /* Optional: Add a subtle shadow */
-}
-
-.home-description {
-    max-width: 600px; /* Adjust as needed */
-    padding-left: 20px;
-}
-=======
 
   .home-image {
     display: block;
@@ -180,4 +158,3 @@ form {
   
   
   
->>>>>>> 72574073006cff62e92d22e112c7fc4eb89dd59d
