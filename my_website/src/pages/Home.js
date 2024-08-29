@@ -1,6 +1,6 @@
 // src/pages/Home.js
 import React from 'react';
-import Typical from 'react-typical';
+import { TypeAnimation } from 'react-type-animation';
 import myImage from '..//images/IMG_0082.JPG';
 import SocialLinks from '../components/SocialLinks';
 
@@ -8,24 +8,28 @@ function Home() {
   return (
     <div>
       <section className="home-content">
-        <h1>Hi, my name is Simon Jupp</h1>
+        <h1>Hi, I'm Simon Jupp</h1>
         <h2>
                 I am a{' '}
-                <Typical
-                    steps={[
-                        'Software Engineer.', 1000,
-                        'Web Developer.', 1000,
-                        'Tech Enthusiast.', 1000,
-                        'Problem Solver.', 1000,
-                        'Lifelong Learner.', 1000
-                    ]}
-                    loop={Infinity}
-                    wrapper="span"
+                 <TypeAnimation
+                  sequence={[
+                    'Software Engineer.',
+                    1000, 
+                    'Problem Solver',
+                    1000,
+                    'Fullstack Developer.',
+                    1000,
+                    'Lifelong Learner.',
+                    1000
+                  ]}
+                  wrapper="span"
+                  speed={50}
+                  repeat={Infinity}
                 />
             </h2>
         <div className="home-description">
           <p>
-            Senior at Yale majoring in Computer Science
+            Senior Student-Athlete at Yale majoring in Computer Science
           </p>
         </div>
         <div className="bottom-row">
@@ -34,7 +38,7 @@ function Home() {
             alt="Your description" 
             className="home-image"
           />
-          <div className="home-info">
+          <div className="social">
             <SocialLinks />
           </div>
         </div>

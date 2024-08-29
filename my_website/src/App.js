@@ -7,12 +7,17 @@ import Projects from './pages/Projects';
 import Contact from './pages/Contact';
 import Navbar from './components/Navbar';
 import ThankYou from './pages/ThankYou';
+// import Particles from 'react-particles-js';
+import ParticlesComponent from './components/ParticleBackground';
 
 function App() {
+  
   return (
     <Router>
-      <div>
+      
+      <div >
       <Navbar />
+      <ParticlesComponent id="particles"/>
       <Routes>
         <Route path="/" element={<Home />} />
         <Route path="/about" element={<About />} />
@@ -21,6 +26,8 @@ function App() {
         <Route path="/thankyou" element={<ThankYou />} />
       </Routes>
       </div>
+
+   
     </Router>
   );
 }

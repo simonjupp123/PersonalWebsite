@@ -8,7 +8,10 @@ const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(
   <React.StrictMode>
     <App />
+    <div id="particles-js"></div>
+    <script src="particles.js"></script>
   </React.StrictMode>
+  
 );
 
 // If you want to start measuring performance in your app, pass a function
