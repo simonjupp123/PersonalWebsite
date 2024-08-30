@@ -51,7 +51,7 @@ function ContactForm() {
                 />
             </div>
             <div>
-                <label htmlFor="text">Text:</label>
+                <label htmlFor="text">Message:</label>
                 <textarea
                     id="text"
                     name="text"

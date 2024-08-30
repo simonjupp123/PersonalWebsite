@@ -1,14 +1,16 @@
 // src/pages/Home.js
 import React from 'react';
+
 import { TypeAnimation } from 'react-type-animation';
 import myImage from '..//images/IMG_0082.JPG';
 import SocialLinks from '../components/SocialLinks';
+import samplePDF1 from "../assets/resume.pdf";
 
 function Home() {
   return (
     <div>
       <section className="home-content">
-        <h1>Hi, I'm Simon Jupp</h1>
+        <h1 className="title">Hi, I'm Simon Jupp</h1>
         <h2>
                 I am a{' '}
                  <TypeAnimation
@@ -27,11 +29,7 @@ function Home() {
                   repeat={Infinity}
                 />
             </h2>
-        <div className="home-description">
-          <p>
-            Senior Student-Athlete at Yale majoring in Computer Science
-          </p>
-        </div>
+        
         <div className="bottom-row">
           <img 
             src={myImage} 
@@ -40,7 +38,20 @@ function Home() {
           />
           <div className="social">
             <SocialLinks />
+            <div className="btn-container">
+              <button
+                className="btn btn-color-2"
+                onClick={() => window.open(samplePDF1, '_blank', 'noreferrer')}
+              >
+               Download CV
+              </button>
+            </div>        
           </div>
+        </div>
+        <div className="home-description">
+          <p>
+            Senior Student-Athlete at Yale majoring in Computer Science
+          </p>
         </div>
       </section>
     </div>
