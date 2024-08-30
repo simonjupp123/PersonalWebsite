@@ -21,7 +21,7 @@ function Projects() {
         <div class="details-container color-container">
           <div class="article-container">
             <img
-              src="project-1.png"
+              src="thumbnail0.png"
               alt="Project 1"
               class="project-img"
             />
@@ -30,7 +30,7 @@ function Projects() {
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
-              onclick={() => window.location.href = 'https://github.com/simonjupp123/TaskM'}
+              onClick={() => window.open("https://github.com/simonjupp123/TaskM", "_blank") }
             >
               Github
             </button>
