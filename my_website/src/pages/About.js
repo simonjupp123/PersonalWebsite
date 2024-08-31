@@ -15,7 +15,7 @@ function About() {
             </div>
             <div class="details-container">
               <h3>Education</h3>
-              <p>Pursing B.S.  Computer Science</p>
+              <p>Pursuing B.S. in Computer Science</p>
             </div>
           </div>
           <div class="text-container2">

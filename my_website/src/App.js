@@ -13,7 +13,7 @@ import ParticlesComponent from './components/ParticleBackground';
 function App() {
   
   return (
-    <Router>
+    <Router basename="/PersonalWebsite">
       
       <div >
       <Navbar />
