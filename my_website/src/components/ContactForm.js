@@ -1,7 +1,7 @@
 import React, {useState} from 'react'
 
 
-const domain_name = "http://localhost:3000"
+const domain_name = "https://simonjupp123.github.io/PersonalWebsite"
 function ContactForm() {
     const [formData, setFormData] = useState({
       name: '',

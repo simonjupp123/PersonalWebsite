@@ -1,4 +1,6 @@
 import React, { useState } from 'react';
+import thmb0 from '../assets/thumbnail0.PNG';
+import thmb1 from '../assets/thumbnail1.PNG';
 
 function Projects() {
   const [showPopup, setShowPopup] = useState(false);
@@ -21,7 +23,7 @@ function Projects() {
         <div class="details-container color-container">
           <div class="article-container">
             <img
-              src="thumbnail0.png"
+              src={thmb0}
               alt="Project 1"
               class="project-img"
             />
@@ -40,7 +42,7 @@ function Projects() {
         <div class="details-container color-container">
           <div class="article-container">
             <img
-              src="thumbnail1.png"
+              src={thmb1}
               alt="Project 2"
               class="project-img"
             />
