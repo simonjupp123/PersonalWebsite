@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/PersonalWebsite/static/css/main.cb323c83.css",
-    "main.js": "/PersonalWebsite/static/js/main.a5e49dd0.js",
+    "main.css": "/PersonalWebsite/static/css/main.8181507f.css",
+    "main.js": "/PersonalWebsite/static/js/main.725cdab6.js",
     "static/js/453.195b869a.chunk.js": "/PersonalWebsite/static/js/453.195b869a.chunk.js",
     "static/media/IMG_0082.JPG": "/PersonalWebsite/static/media/IMG_0082.a2650f29e2ccd64c4ebb.JPG",
     "static/media/thumbnail2.PNG": "/PersonalWebsite/static/media/thumbnail2.a7b10d3b07c3c3f35eb3.PNG",
@@ -10,12 +10,12 @@
     "static/media/thumbnail0.PNG": "/PersonalWebsite/static/media/thumbnail0.94cf2526599ab594a45a.PNG",
     "static/media/linkedin-black-logo-icon.png": "/PersonalWebsite/static/media/linkedin-black-logo-icon.2649353c3694db13b305.png",
     "index.html": "/PersonalWebsite/index.html",
-    "main.cb323c83.css.map": "/PersonalWebsite/static/css/main.cb323c83.css.map",
-    "main.a5e49dd0.js.map": "/PersonalWebsite/static/js/main.a5e49dd0.js.map",
+    "main.8181507f.css.map": "/PersonalWebsite/static/css/main.8181507f.css.map",
+    "main.725cdab6.js.map": "/PersonalWebsite/static/js/main.725cdab6.js.map",
     "453.195b869a.chunk.js.map": "/PersonalWebsite/static/js/453.195b869a.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.cb323c83.css",
-    "static/js/main.a5e49dd0.js"
+    "static/css/main.8181507f.css",
+    "static/js/main.725cdab6.js"
   ]
 }
