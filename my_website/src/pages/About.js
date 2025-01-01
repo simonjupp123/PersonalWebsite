@@ -6,8 +6,8 @@ function About() {
     <section id="about">
       <p class="section__text__p1">Get To Know More</p>
       <h1 class="title">About Me</h1>
-      <div class="section-container">
-        <div class="about-details-container">
+      
+        <div class="aboutme-details-container">
           <div class="about-containers">
             <div class="details-container">
               <h3>Experience</h3>
@@ -18,6 +18,10 @@ function About() {
               <p>Pursuing B.S. in Computer Science</p>
             </div>
           </div>
+        </div>
+      
+      <div >
+        <div>
           <div class="text-container2">
             <p>
             I am currently a senior at Yale University, majoring in Computer Science. Throughout my academic journey, I’ve had the privilege of taking some challenging yet incredibly rewarding courses that have fueled my passion for technology. My hands-on experience includes developing full-stack applications and integrating machine learning pipelines. I’m deeply passionate about technology and enjoy creating innovative solutions.
@@ -28,6 +32,8 @@ Outside of coding, I am a member of the Yale Track and Field team, where I compe
           </div>
         </div>
       </div>
+        
+
     </section>
   );
 }

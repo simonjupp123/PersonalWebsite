@@ -210,9 +210,7 @@ section {
   min-height: fit-content;
 }
 
-.section-container {
-  display: flex;
-}
+
 
 /* ABOUT SECTION */
 
@@ -229,13 +227,19 @@ section {
 }
 
 .about-details-container {
-  justify-content: center;
+  /* Centers the child elements horizontally */
+  align-items: stretch; /* Ensures all items are the same height */
+  flex-wrap: wrap; /* Wraps items to the next line if they don't fit */
+  
   flex-direction: column;
 }
 
 .about-containers,
 .about-details-container {
   display: flex;
+   /* Space between flex items */
+  justify-content: center;
+  
 }
 
 .about-pic {
@@ -261,6 +265,7 @@ section {
 .section-container {
   gap: 4rem;
   height: 80%;
+  display: flex;
 }
 
 .section__pic-container {
@@ -343,6 +348,15 @@ input, textarea {
   gap: 20px; /* Adds space between child elements */
   margin: 20px 0; /* Adds top and bottom spacing */
   padding: 10px;
+}
+.aboutme-details-container {
+  display: flex;
+  justify-content: center; /* Centers the child elements horizontally */
+  align-items: stretch; /* Ensures all items are the same height */
+  flex-wrap: wrap; /* Wraps items to the next line if they don't fit */
+ /* Adds space between child elements */
+ /* Adds top and bottom spacing */
+  
 }
 
 .project-title {
