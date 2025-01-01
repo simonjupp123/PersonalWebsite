@@ -29,7 +29,7 @@ function Projects() {
               class="project-img"
             />
           </div>
-          <h2 class="experience-sub-title project-title">Task Manager</h2>
+          <h2 class="experience-sub-title project-title">Task Manager  <br /></h2>
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
@@ -48,7 +48,7 @@ function Projects() {
               class="project-img"
             />
           </div>
-          <h2 class="experience-sub-title project-title">Bulldog Buddies</h2>
+          <h2 class="experience-sub-title project-title">Bulldog Buddies<br /></h2>
           <div class="btn-container">
             <button
               class="btn btn-color-2 project-btn"
