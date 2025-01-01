@@ -1,6 +1,7 @@
 import React, { useState } from 'react';
 import thmb0 from '../assets/thumbnail0.PNG';
 import thmb1 from '../assets/thumbnail1.PNG';
+import thmb2 from '../assets/thumbnail2.PNG';
 
 function Projects() {
   const [showPopup, setShowPopup] = useState(false);
@@ -57,6 +58,24 @@ function Projects() {
               </button>
           </div>
         </div>
+        <div class="details-container color-container"> 
+            <div class="article-container">
+              <img
+                src={thmb2}
+                alt="Project 3"
+                class="project-img"
+              />
+            </div>
+            <h2 class="experience-sub-title project-title">Rhythm Game Engine</h2>
+            <div class="btn-container">
+              <button
+                class="btn btn-color-2 project-btn"
+                onClick={() => window.open("https://github.com/simonjupp123/finalproject-rhythm", "_blank") }
+              >
+                Github
+              </button>
+            </div>
+          </div>
       </div>
     </div>
     {showPopup && (
