@@ -15,7 +15,7 @@ function About() {
             </div>
             <div class="details-container">
               <h3>Education</h3>
-              <p>Pursuing B.S. in Computer Science</p>
+              <p>B.S. in Computer Science</p>
             </div>
           </div>
         </div>
@@ -24,7 +24,7 @@ function About() {
         <div>
           <div class="text-container2">
             <p>
-            I am currently a senior at Yale University, majoring in Computer Science. Throughout my academic journey, I’ve had the privilege of taking some challenging yet incredibly rewarding courses that have fueled my passion for technology. My hands-on experience includes developing full-stack applications and integrating machine learning pipelines. I’m deeply passionate about technology and enjoy creating innovative solutions.
+            I’m a graduate of Yale University with a degree in Computer Science. Throughout my academic journey, I’ve taken on challenging and rewarding coursework that has deepened my passion for technology. My experience spans developing full-stack applications and building machine learning pipelines, giving me hands-on exposure to both software engineering and data-driven problem-solving. I thrive on creating innovative solutions and continuously exploring new ways to push the boundaries of technology.
             </p>
             <p>
 Outside of coding, I am a member of the Yale Track and Field team, where I compete in the 400m. In my free time, I love hiking, trail running, gaming, and immersing myself in the world of electronic music.

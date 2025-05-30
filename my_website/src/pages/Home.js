@@ -50,7 +50,8 @@ function Home() {
         </div>
         <div className="home-description">
           <p>
-            Senior Student-Athlete at Yale majoring in Computer Science
+            {/* Senior Student-Athlete at Yale majoring in Computer Science */}
+            Recent Computer Science Graduate from Yale University
           </p>
         </div>
       </section>
